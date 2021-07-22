@@ -5,4 +5,4 @@
 #Thành viên nhóm: 
 #- Phan Ngọc Trí - MSSV: 1811061355 
 #- Tô Hữu Bằng - MSSV: 1811060052
-#Kèm theo file cài đặt "Alpha-inventory-management.apk"
+#Kèm theo file cài đặt trong folder "Application Installer/Alpha-inventory-management.apk"
