@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deleteItemsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Xóa sản phẩm"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:id="@+id/barcodedelete"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="-252dp"
+        android:ems="10"
+        android:hint="Mã sản phẩm"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:text="Sản phẩm muốn xóa:"
+        android:textColor="#C1F8B0B0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonscandelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/barcodeview"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="385dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Quét Bar/QR Code"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/deleteItemToTheDatabasebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonscandelete"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="-70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Xóa sản phẩm"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="178dp"
+        android:layout_height="168dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="-213dp"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@id/textView"
+        android:visibility="visible"
+        app:srcCompat="@drawable/delete"
+        tools:srcCompat="@drawable/delete" />
+
+</RelativeLayout>
